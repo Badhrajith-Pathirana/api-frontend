@@ -10,6 +10,8 @@ import {SidebarNavComponent} from './sidebar-nav/sidebar-nav.component';
 import {AppRoutingModule} from './app-routing.module';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { CreatePostComponent } from './create-post/create-post.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import {HttpClientModule} from '@angular/common/http';
     CreateSignupComponent,
     HeaderComponent,
     FootarComponent,
-    SidebarNavComponent
+    SidebarNavComponent,
+    CreatePostComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,
