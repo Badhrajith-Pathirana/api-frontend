@@ -8,7 +8,7 @@ import {HeaderComponent} from './header/header.component';
 import {FootarComponent} from './footar/footar.component';
 import {SidebarNavComponent} from './sidebar-nav/sidebar-nav.component';
 import {AppRoutingModule} from './app-routing.module';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import { CreatePostComponent } from './create-post/create-post.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
@@ -28,7 +28,8 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [

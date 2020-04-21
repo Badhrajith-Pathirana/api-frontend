@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {FormControl, FormGroup, Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-create-post',
@@ -7,9 +8,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreatePostComponent implements OnInit {
 
-  constructor() { }
+  categories: {id: any, value: any} [];
+  postCreateForm: FormGroup;
+
+  constructor() {
+
+  }
 
   ngOnInit() {
+    this.initializeFormGroup();
+  }
+
+  initializeFormGroup() {
+    this.postCreateForm = new FormGroup({
+      'postTitleControl': new FormControl('Title', [Validators.required]),
+      'postControl': new FormControl('Vakkdkdkd', [Validators.required]),
+      'postCatControl': new FormControl('' , [Validators.required])
+    });
   }
 
 }
