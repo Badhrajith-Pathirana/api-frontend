@@ -19,12 +19,12 @@
         </div>
         <div class="form-group">
           <label for="category">Category</label>
-          <select type="text" formControlName="postCatControl" class="form-control" id="category" placeholder="name@example.com">
+          <select type="text" formControlName="postCatControl" class="form-control" id="category" placeholder="Categories">
             <option *ngFor="let cat of categories" [value]="cat.id"> {{cat.value}} </option>
           </select>
         </div>
         <div class="btn-group mr-2">
-          <button type="button" class="btn btn-primary">Create Post</button>
+          <button type="button" class="btn btn-primary" [disabled]="!postCreateForm.valid">Create Post</button>
         </div>
         <div class="btn-group mr-2">
           <button type="button" class="btn btn-secondary">Clear Form</button>
