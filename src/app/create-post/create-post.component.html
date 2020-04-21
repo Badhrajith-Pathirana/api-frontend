@@ -24,10 +24,10 @@
           </select>
         </div>
         <div class="btn-group mr-2">
-          <button type="button" class="btn btn-primary" [disabled]="!postCreateForm.valid">Create Post</button>
+          <button type="button" class="btn btn-primary" (click)="createPost()" [disabled]="!postCreateForm.valid">Create Post</button>
         </div>
         <div class="btn-group mr-2">
-          <button type="button" class="btn btn-secondary">Clear Form</button>
+          <button type="button" (click)="clearData()" class="btn btn-secondary">Clear Form</button>
         </div>
       </form>
     </div>
