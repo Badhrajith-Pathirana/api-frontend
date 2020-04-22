@@ -15,7 +15,11 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit(): void {
+<<<<<<< HEAD
     // this.routeTheLogin();
+=======
+    //this.routeTheLogin();
+>>>>>>> userprofile
   }
 
   routeTheLogin() {
