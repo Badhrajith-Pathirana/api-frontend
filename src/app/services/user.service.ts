@@ -18,5 +18,13 @@ export class UserService {
     return this.http.get(this.env + '/users');
   }
 
-  
+  getUserById(userId): Observable<any> {
+    return this.http.get(this.env + '/members/' + userId);
+  }
+
+  updateUser(userData): Observable<any> {
+    return this.http.put(this.env + '/members/' + userData.id, userData);
+  }
+
+
 }
