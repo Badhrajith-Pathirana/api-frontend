@@ -1,8 +1,9 @@
 <div class="content-wrapper">
-    
 
-
- 
+  <!-- Content Header (Page header) -->
+  <div class="content-header">
+   Posts / Add New 
+  </div>
 
   <!-- /.content-header -->
   <!-- DataTables Example -->
@@ -11,7 +12,7 @@
       <form [formGroup]="postCreateForm">
         <div class="form-group">
           
-          <label for="category">Post</label>
+          <label for="category">Users</label>
           
 <select id="category">
   <option value="">All</option>
@@ -29,7 +30,7 @@
             <table cellspacing="0" class="table table-bordered" id="dataTable" width="100%">
               <thead>
               <tr>
-                <th>National ID </th>
+                <th>National ID /th>
                 <th>Name</th>
                 <th>Profession</th>
                 <th>Email</th>
@@ -50,7 +51,7 @@
                 <td>johndoe@gmail.com</td>
                 <td>Joining</td>
                 <td>Student</td>
-                <td><a href="#">Approve</a> / <a href="#">Reject</a></td>
+                <td><a href="#">View Profile</a> / <a href="#">Delete</a></td>
     
               </tr>
     
@@ -61,8 +62,9 @@
                 <td>johndoe@gmail.com</td>
                 <td>Joining</td>
                 <td>Student</td>
-                <td><a href="#">Approve</a> / <a href="#">Reject</a></td>
-    
+              <td><a href="#">View Profile</a> / <a href="#">Delete</a></td>
+
+                   
               </tr>
     
                <tr>
@@ -72,7 +74,7 @@
                 <td>johndoe@gmail.com</td>
                 <td>Joining</td>
                 <td>Student</td>
-                <td><a href="#">Approve</a> / <a href="#">Reject</a></td>
+                <td><a href="#">View Profile</a> / <a href="#">Delete</a></td>
     
               </tr>
     
@@ -86,4 +88,4 @@
       </form>
     </div>
   </div>
-
+</div>
