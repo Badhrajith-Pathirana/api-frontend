@@ -15,6 +15,7 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 import { ProgramManageComponent } from './program-manage/program-manage.component';
 import { ProgramManage2Component } from './program-manage2/program-manage2.component';
 import { ProgramManage3Component } from './program-manage3/program-manage3.component';
+import { SearchPostComponent } from './search-post/search-post.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ProgramManage3Component } from './program-manage3/program-manage3.compo
     UserProfileComponent,
     ProgramManageComponent,
     ProgramManage2Component,
-    ProgramManage3Component
+    ProgramManage3Component,
+    SearchPostComponent
   ],
   imports: [
     BrowserModule,
