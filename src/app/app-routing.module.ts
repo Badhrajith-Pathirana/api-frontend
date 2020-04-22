@@ -7,8 +7,8 @@ import { ProgramManageComponent } from './program-manage/program-manage.componen
 
 
 const routes: Routes = [
-  {path: 'create-post' , component: CreatePostComponent},
-  {path: 'user-profile/**', component: UserProfileComponent},
+ {path: 'create-post' , component: CreatePostComponent},
+ {path: 'user-profile', component: UserProfileComponent},
   {path: 'program-manage' , component: ProgramManageComponent}
 ];
 
