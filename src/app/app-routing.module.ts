@@ -1,3 +1,4 @@
+import { SearchPostComponent } from './search-post/search-post.component';
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {RouterModule, Routes} from '@angular/router';
@@ -7,7 +8,8 @@ import {UserProfileComponent} from './user-profile/user-profile.component';
 
 const routes: Routes = [
   {path: 'create-post' , component: CreatePostComponent},
-  {path: 'user-profile/**', component: UserProfileComponent}
+  {path: 'user-profile/**', component: UserProfileComponent},
+  {path: 'search-post', component: SearchPostComponent}
 ];
 
 @NgModule({
