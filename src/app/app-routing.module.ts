@@ -9,7 +9,7 @@ import {SearchPostComponent} from './search-post/search-post.component';
 
 const routes: Routes = [
   {path: 'create-post' , component: CreatePostComponent},
-  {path: 'user-profile/**', component: UserProfileComponent},
+  {path: 'user-profile', component: UserProfileComponent},
   {path: 'search-post', component: SearchPostComponent},
   {path: 'program-manage' , component: ProgramManageComponent}
 ];
