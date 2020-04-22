@@ -26,7 +26,6 @@ import { SearchPostComponent } from './search-post/search-post.component';
     CreatePostComponent,
     UserProfileComponent,
     ProgramManageComponent,
-    UserProfileComponent,
     SearchPostComponent
   ],
   imports: [
