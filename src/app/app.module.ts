@@ -13,6 +13,8 @@ import {HttpClientModule} from '@angular/common/http';
 import { CreatePostComponent } from './create-post/create-post.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { ProgramManageComponent } from './program-manage/program-manage.component';
+import { ProgramManage2Component } from './program-manage2/program-manage2.component';
+import { ProgramManage3Component } from './program-manage3/program-manage3.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ProgramManageComponent } from './program-manage/program-manage.componen
     SidebarNavComponent,
     CreatePostComponent,
     UserProfileComponent,
-    ProgramManageComponent
+    ProgramManageComponent,
+    ProgramManage2Component,
+    ProgramManage3Component
   ],
   imports: [
     BrowserModule,
