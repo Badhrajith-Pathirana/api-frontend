@@ -21,4 +21,8 @@ export class PostService {
   createPost(postData): Observable<any> {
     return this.http.post(this.env + '/post', postData);
   }
+
+  getAllPosts(): Observable<any>{
+    return this.http.get(this.env + '/post');
+  }
 }

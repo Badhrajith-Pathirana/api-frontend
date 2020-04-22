@@ -12,6 +12,10 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import { CreatePostComponent } from './create-post/create-post.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { ProgramManageComponent } from './program-manage/program-manage.component';
+import { ProgramManage2Component } from './program-manage2/program-manage2.component';
+import { ProgramManage3Component } from './program-manage3/program-manage3.component';
+import { SearchPostComponent } from './search-post/search-post.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
     FootarComponent,
     SidebarNavComponent,
     CreatePostComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    ProgramManageComponent,
+    ProgramManage2Component,
+    ProgramManage3Component,
+    SearchPostComponent
   ],
   imports: [
     BrowserModule,
