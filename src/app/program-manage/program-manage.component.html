@@ -8,7 +8,7 @@
   <!-- DataTables Example -->
   <div class="card mb-3">
     <div class="card-body">
-      <form [formGroup]="postCreateForm">
+      <form>
         <div class="form-group">
           
           <label for="category">Post</label>
@@ -21,7 +21,7 @@
           
          
          <select type="text" formControlName="postCatControl" class="form-control" id="category" placeholder="Categories">
-            <option *ngFor="let cat of categories" [value]="cat.id"> {{cat.value}} </option>
+            <option>  </option>
           </select>
         </div>
         <div class="card-body">
