@@ -15,6 +15,7 @@ export class SearchPostComponent implements OnInit {
   selectedCat: any;
   searchPostForm: FormGroup;
   
+  
   constructor(
     private postService : PostService,
     private userService : UserService
