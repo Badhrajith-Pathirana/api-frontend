@@ -8,7 +8,6 @@ import {Router} from '@angular/router';
 })
 export class AppComponent implements OnInit{
   title = 'api-frontend';
-  update= false;
 
   constructor(
     private router: Router
@@ -16,7 +15,6 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit(): void {
-    
   }
 
   routeTheLogin() {

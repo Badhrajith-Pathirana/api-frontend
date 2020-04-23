@@ -1,23 +1,27 @@
 <div class="content-wrapper">
+    
+
+
+ 
 
   <!-- /.content-header -->
   <!-- DataTables Example -->
   <div class="card mb-3">
     <div class="card-body">
-      <form [formGroup]="userSearchForm">
+      <form>
         <div class="form-group">
           
           <label for="category">Post</label>
           
-          <select id="category">
-            <option value="">All</option>
-            <option value="">Approved</option>
-            
-          </select>
+<select id="category">
+  <option value="">All</option>
+  <option value="">Approved</option>
+  
+</select>
           
          
-          <select type="text" formControlName="userCatControl" class="form-control" id="category" placeholder="Categories">
-              <option>  </option>
+         <select type="text" formControlName="postCatControl" class="form-control" id="category" placeholder="Categories">
+            <option>  </option>
           </select>
         </div>
         <div class="card-body">
