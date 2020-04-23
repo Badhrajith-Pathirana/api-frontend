@@ -13,6 +13,7 @@ export class SearchPostComponent implements OnInit {
   categories: {id:any, value:any}[];
   posts:{title: any, body: any, category: any, user: any}[];
   selectedCat: any;
+  category: any;
   searchPostForm: FormGroup;
   
   constructor(
@@ -55,8 +56,6 @@ export class SearchPostComponent implements OnInit {
       }
     });
   })
-
-  
   
  }
 
