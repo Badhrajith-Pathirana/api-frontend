@@ -9,7 +9,7 @@ import { FormGroup } from '@angular/forms';
 export class ProgramManage2Component implements OnInit {
 
   category : any;
-  createPostForm : FormGroup;
+  
 
   constructor() { }
 
