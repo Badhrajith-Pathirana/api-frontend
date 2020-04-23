@@ -1,3 +1,55 @@
-<p>
-  search-post works!
-</p>
+<div class="content-wrapper">
+
+  <!-- Content Header (Page header) -->
+  <div class="content-header">
+   Search Post
+  </div>
+
+
+  <div class="card mb-3">
+    <div class="card-body">
+      <form [formGroup]="postCreateForm">
+        <div class="form-group">
+          
+          <label for="category">Category</label>
+         
+         <select type="text" formControlName="postCatControl" class="form-control" id="category" placeholder="Categories">
+            <option *ngFor="let cat of categories" [value]="cat.id"> {{cat.value}} </option>
+          </select>
+        </div>
+      </form>
+
+        <div class="col-sm-9">
+          <label for="posts">Posts</label>
+          <div class="col-sm-3">
+            <div class="card">
+              <h3>Card 1</h3>
+              <p>Some text</p>
+              <p>Some text</p>
+            </div>
+          </div>
+        
+          <div class="col-sm-3">
+            <div class="card">
+              <h3>Card 2</h3>
+              <p>Some text</p>
+              <p>Some text</p>
+            </div>
+          </div>
+          
+          <div class="col-sm-3">
+            <div class="card">
+              <h3>Card 3</h3>
+              <p>Some text</p>
+              <p>Some text</p>
+            </div>
+          </div>
+          
+      </div>
+    </div>  
+  </div>
+</div>
+        
+
+
+
