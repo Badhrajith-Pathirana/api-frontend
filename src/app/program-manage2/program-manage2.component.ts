@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-program-manage2',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./program-manage2.component.css']
 })
 export class ProgramManage2Component implements OnInit {
+
+  category : any;
+  createPostForm : FormGroup;
 
   constructor() { }
 
